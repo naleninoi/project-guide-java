@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementCSVParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_01/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransactionAnalyzerSimple.java" afterDir="false" />
+    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransactionAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
   </component>
   <component name="RunManager">
     <configuration name="chapter-01" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.project_guide.chapter_02.BankTransactionAnalyzerSimple" />
+      <option name="MAIN_CLASS_NAME" value="main.java.com.project_guide.chapter_02.BankTransactionAnalyzer" />
       <module name="ProjectGuide" />
       <option name="PROGRAM_PARAMETERS" value="bank-data-simple.csv" />
       <method v="2">
@@ -77,7 +75,7 @@
       <workItem from="1694262729047" duration="1954000" />
       <workItem from="1694351276067" duration="596000" />
       <workItem from="1694764394448" duration="12000" />
-      <workItem from="1694862727065" duration="1187000" />
+      <workItem from="1694862727065" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1694262787313</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694264319183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ex 2-6">
+      <created>1694864211062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694864211062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +122,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="ex 2-1" />
     <MESSAGE value="ex 2-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex 2-2" />
+    <MESSAGE value="ex 2-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 2-6" />
   </component>
 </project>
