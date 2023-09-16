@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_01/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_01/BankTransactionAnalyzerSimple.java" afterDir="false" />
+    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementCSVParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_01/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransactionAnalyzerSimple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,22 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.com.project_guide.chapter_02" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="chapter-01" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.project_guide.chapter_01.BankTransactionAnalyzerSimple" />
+      <option name="MAIN_CLASS_NAME" value="main.java.com.project_guide.chapter_02.BankTransactionAnalyzerSimple" />
       <module name="ProjectGuide" />
       <option name="PROGRAM_PARAMETERS" value="bank-data-simple.csv" />
       <method v="2">
@@ -52,7 +74,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694262727953</updated>
-      <workItem from="1694262729047" duration="1564000" />
+      <workItem from="1694262729047" duration="1954000" />
+      <workItem from="1694351276067" duration="596000" />
+      <workItem from="1694764394448" duration="12000" />
+      <workItem from="1694862727065" duration="1187000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1694262787313</created>
@@ -75,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694263959900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ex 2-2">
+      <created>1694264319183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694264319183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="ex 2-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex 2-1" />
+    <MESSAGE value="ex 2-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 2-2" />
   </component>
 </project>
