@@ -1,4 +1,4 @@
-package main.java.com.project_guide.chapter_02;
+package com.project_guide.chapter_02;
 
 import java.time.Month;
 import java.util.List;
