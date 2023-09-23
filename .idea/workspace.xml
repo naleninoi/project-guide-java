@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 3-8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/IBankTransactionSummarizer.java" afterDir="false" />
+    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 3-11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/HtmlExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/IExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/SummaryStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/BankStatementCSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/BankStatementProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/BankTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/IBankStatementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/IBankStatementParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/IBankTransactionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/IBankTransactionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BankStatementCSVParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BankStatementCSVParserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,7 +135,7 @@
       <workItem from="1694764394448" duration="12000" />
       <workItem from="1694862727065" duration="5137000" />
       <workItem from="1695474464384" duration="1239000" />
-      <workItem from="1695489535245" duration="664000" />
+      <workItem from="1695489535245" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1694262787313</created>
@@ -206,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695475261668</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ex 3-11">
+      <created>1695490321627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695490321628</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +222,7 @@
     <MESSAGE value="ex 2-13" />
     <MESSAGE value="ex 2-15" />
     <MESSAGE value="ex 3-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex 3-8" />
+    <MESSAGE value="ex 3-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 3-11" />
   </component>
 </project>
