@@ -1,6 +1,4 @@
-package com.project_guide.chapter_02;
-
-import org.w3c.dom.ls.LSOutput;
+package com.project_guide;
 
 import java.io.IOException;
 import java.nio.file.Files;

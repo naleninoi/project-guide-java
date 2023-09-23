@@ -1,6 +1,6 @@
-import com.project_guide.chapter_02.BankStatementCSVParser;
-import com.project_guide.chapter_02.BankTransaction;
-import com.project_guide.chapter_02.IBankStatementParser;
+import com.project_guide.BankStatementCSVParser;
+import com.project_guide.BankTransaction;
+import com.project_guide.IBankStatementParser;
 import org.junit.Assert;
 import org.junit.Test;
 

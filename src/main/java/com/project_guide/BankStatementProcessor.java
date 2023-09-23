@@ -1,4 +1,4 @@
-package com.project_guide.chapter_02;
+package com.project_guide;
 
 import java.time.Month;
 import java.util.ArrayList;
@@ -12,32 +12,26 @@ public class BankStatementProcessor {
         this.bankTransactions = bankTransactions;
     }
 
-    public double calculateTotalAmount() {
-        double total = 0d;
+    public double summarizeTransactions(final IBankTransactionSummarizer bankTransactionSummarizer) {
+        double result = 0;
         for (final BankTransaction bankTransaction : bankTransactions) {
-            total += bankTransaction.amount();
+            result = bankTransactionSummarizer.summarize(result, bankTransaction);
         }
-        return total;
+        return result;
+    }
+
+    public double calculateTotalAmount() {
+        return summarizeTransactions((acc, bankTransaction) -> acc + bankTransaction.amount());
     }
 
     public double calculateTotalInMonth(final Month month) {
-        double total = 0d;
-        for (final BankTransaction bankTransaction : bankTransactions) {
-            if (bankTransaction.date().getMonth() == month) {
-                total += bankTransaction.amount();
-            }
-        }
-        return total;
+        return summarizeTransactions((acc, bankTransaction) ->
+                bankTransaction.date().getMonth() == month ? acc + bankTransaction.amount() : acc);
     }
 
     public double calculateTotalInCategory(final String category) {
-        double total = 0d;
-        for (final BankTransaction bankTransaction : bankTransactions) {
-            if (bankTransaction.description().equalsIgnoreCase(category)) {
-                total += bankTransaction.amount();
-            }
-        }
-        return total;
+        return summarizeTransactions((acc, bankTransaction) ->
+                bankTransaction.description().equalsIgnoreCase(category) ? acc + bankTransaction.amount() : acc);
     }
 
     public List<BankTransaction> findTransactions(final IBankTransactionFilter bankTransactionFilter) {
@@ -48,5 +42,9 @@ public class BankStatementProcessor {
             }
         }
         return result;
+    }
+
+    public List<BankTransaction> findTransactionsGreaterThanEqual(final int amount) {
+        return findTransactions(bankTransaction -> bankTransaction.amount() >= amount);
     }
 }
