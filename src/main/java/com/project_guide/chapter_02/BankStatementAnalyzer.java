@@ -1,5 +1,7 @@
 package com.project_guide.chapter_02;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -18,6 +20,11 @@ public class BankStatementAnalyzer {
         final BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
 
         collectSummary(bankStatementProcessor);
+
+        final List<BankTransaction> selectedResult = bankStatementProcessor.findTransactions(bankTransaction ->
+                bankTransaction.date().getMonth() == Month.FEBRUARY
+                && bankTransaction.amount() >= 1_000);
+        selectedResult.forEach(System.out::println);
     }
 
     private static void collectSummary(final BankStatementProcessor bankStatementProcessor) {

@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-13">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankStatementCSVParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="477d7e4f-79b6-4508-a6ee-0d1202a50fa4" name="Changes" comment="ex 2-15">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/IBankTransactionFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectGuide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectGuide.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementCSVParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankStatementProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/BankTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/IBankStatementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/IBankStatementParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project_guide/chapter_02/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -76,9 +64,22 @@
       <recent name="main.java.com.project_guide.chapter_02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankStatementCSVParserTest">
-    <configuration name="chapter-01" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.project_guide.chapter_02.MainApplication" />
+  <component name="RunManager" selected="Application.chapter-02">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project_guide.chapter_02.MainApplication" />
+      <module name="ProjectGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project_guide.chapter_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter-02" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.project_guide.chapter_02.MainApplication" />
       <module name="ProjectGuide" />
       <option name="PROGRAM_PARAMETERS" value="bank-data-simple.csv" />
       <method v="2">
@@ -102,8 +103,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.chapter-02" />
+      <item itemvalue="Application.MainApplication" />
+      <item itemvalue="JUnit.All in ProjectGuide" />
+      <item itemvalue="JUnit.BankStatementCSVParserTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.BankStatementCSVParserTest" />
         <item itemvalue="JUnit.All in ProjectGuide" />
       </list>
@@ -120,7 +128,8 @@
       <workItem from="1694262729047" duration="1954000" />
       <workItem from="1694351276067" duration="596000" />
       <workItem from="1694764394448" duration="12000" />
-      <workItem from="1694862727065" duration="4696000" />
+      <workItem from="1694862727065" duration="5137000" />
+      <workItem from="1695474464384" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1694262787313</created>
@@ -171,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694866112641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ex 2-15">
+      <created>1694867859812</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694867859812</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +200,7 @@
     <MESSAGE value="ex 2-6" />
     <MESSAGE value="ex 2-8" />
     <MESSAGE value="ex 2-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex 2-13" />
+    <MESSAGE value="ex 2-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex 2-15" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.project_guide.chapter_02;
 
 import java.time.Month;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementProcessor {
@@ -37,5 +38,15 @@ public class BankStatementProcessor {
             }
         }
         return total;
+    }
+
+    public List<BankTransaction> findTransactions(final IBankTransactionFilter bankTransactionFilter) {
+        final List<BankTransaction> result = new ArrayList<>();
+        for (final BankTransaction bankTransaction : bankTransactions) {
+            if (bankTransactionFilter.test(bankTransaction)) {
+                result.add(bankTransaction);
+            }
+        }
+        return result;
     }
 }
