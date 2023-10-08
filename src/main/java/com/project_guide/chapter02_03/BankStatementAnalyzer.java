@@ -1,4 +1,4 @@
-package com.project_guide;
+package com.project_guide.chapter02_03;
 
 import java.io.IOException;
 import java.nio.file.Files;

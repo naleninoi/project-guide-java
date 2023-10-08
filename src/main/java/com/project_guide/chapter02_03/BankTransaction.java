@@ -1,4 +1,4 @@
-package com.project_guide;
+package com.project_guide.chapter02_03;
 
 import java.time.LocalDate;
 import java.util.Objects;

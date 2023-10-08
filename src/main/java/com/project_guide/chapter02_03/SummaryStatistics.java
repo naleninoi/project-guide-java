@@ -1,4 +1,4 @@
-package com.project_guide;
+package com.project_guide.chapter02_03;
 
 public record SummaryStatistics
         (double sum, double max, double min, double average) {

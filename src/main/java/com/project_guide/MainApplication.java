@@ -1,5 +1,8 @@
 package com.project_guide;
 
+import com.project_guide.chapter02_03.BankStatementAnalyzer;
+import com.project_guide.chapter02_03.BankStatementCSVParser;
+
 import java.io.IOException;
 
 public class MainApplication {
